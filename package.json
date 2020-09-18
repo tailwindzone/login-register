@@ -1,0 +1,33 @@
+{
+  "name": "login-register",
+  "version": "1.0.0",
+  "description": "Login Register Page",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss src/tailwind.css -o styles.css",
+    "build": "NODE_ENV=production postcss src/tailwind.css -o styles.css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tailwindzone/login-register.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tailwindzone/login-register/issues"
+  },
+  "homepage": "https://github.com/tailwindzone/login-register#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "tailwindcss": "^1.8.10",
+    "postcss-cli": "^7.1.2"
+
+  },
+  "devDependencies": {
+    
+  }
+}
